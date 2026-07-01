@@ -13,7 +13,7 @@ double calculateAverage(double total, int count) {
     // Otherwise, return total divided by count.
     if (count <= 0) return 0.0;
     
-    return (total/count);
+    return (total/count); // Maybe add an else, though it works would make more sense to the average user reading it.
 }
 
 char determineLetterGrade(double average) {
@@ -34,7 +34,7 @@ char determineLetterGrade(double average) {
     else if (average >= 60){
         return 'D';
     }
-    return 'F';
+    return 'F';   // Maybe add an else, though it works would make more sense to the average user reading it.
 }
 bool isPassing(double average){
     // Return true when average is 70 or higher.
